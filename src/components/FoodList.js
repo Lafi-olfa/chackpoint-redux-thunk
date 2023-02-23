@@ -8,7 +8,11 @@ const FoodList = () => {
     <div>
       {" "}
       {loading ? (
-        <h1> Loading...</h1>
+        <div className="load">
+          <div className="one"> </div>
+          <div className="two"> </div>
+          <div className="three"> </div>
+        </div>
       ) : (
         <div
           style={{
